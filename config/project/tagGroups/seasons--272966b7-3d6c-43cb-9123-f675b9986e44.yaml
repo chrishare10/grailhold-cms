@@ -1,0 +1,37 @@
+fieldLayouts:
+  9bbfb7d2-d8a6-4e81-a193-09008910fd0d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 1507bc14-f50f-4269-acfa-d1ee5a283011
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fc3adca0-db89-473d-878a-d69541971f0e
+        userCondition: null
+handle: seasons
+name: Seasons

@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: races
+name: Races
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: af5f13ca-611a-4254-a16a-f7f40e19c99b
+type: structure

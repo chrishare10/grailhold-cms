@@ -1,0 +1,19 @@
+columnSuffix: ucpwosnk
+contentColumnType: text
+fieldGroup: 51adbf9d-694c-41e1-8b70-196225cb9ea3 # Common
+handle: pageDescription
+instructions: null
+name: 'Page Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

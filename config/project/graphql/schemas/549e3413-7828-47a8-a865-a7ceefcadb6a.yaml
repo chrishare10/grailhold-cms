@@ -1,0 +1,113 @@
+isPublic: false
+name: Grailhold
+scope:
+  - 'sites.48830c8f-d2e4-4358-9a07-e909eb7fa688:read' # Grailhold
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.3aea7df2-ac43-497d-a1c8-fcfd3c70f02b:read' # Characters
+  - 'entrytypes.2138fb18-bf82-4829-9d16-650d3d6b5193:read' # Default
+  - 'sections.052d9fea-7f29-4e6e-8348-6aa47c7d8e7c:read' # Classes
+  - 'entrytypes.2d45fa3c-eaa1-4dbd-9e09-29e7103d62a9:read' # Class
+  - 'entrytypes.4ec0b5ed-f386-4e6f-b2ec-49c141c9e5d2:read' # Feat
+  - 'sections.9ff1f8b2-1e47-47fa-be1d-1b539159ecbc:read' # Encounters
+  - 'entrytypes.019deb3d-1820-4951-aaf9-1071ecabc178:read' # Default
+  - 'sections.845d17ac-d979-4b8b-aa17-89ecc82a0b2f:read' # Fables
+  - 'entrytypes.0ba09a69-319b-4981-ac2f-ca985cc1eded:read' # Default
+  - 'sections.b49a84fa-d0e2-4861-9efd-6318d14f5b19:read' # Fabrications
+  - 'entrytypes.a324f0b4-cc2d-4eee-9370-5884023e160c:read' # Default
+  - 'sections.5da5c0cc-6782-47b8-a32e-5e2d9c70161b:read' # Fixtures
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:read' # Default
+  - 'sections.fd9166ee-7883-460c-8361-a8146b16404e:read' # Former Professions 
+  - 'entrytypes.a712fba7-262a-4871-b2ac-dd85b7991036:read' # Default
+  - 'sections.a415b1bd-53f0-4e63-9265-fc72c759c4d3:read' # Game Sytems
+  - 'entrytypes.9b89da69-9d5a-4c84-8725-936984327758:read' # Rules
+  - 'sections.356584fa-c0df-462f-aa26-cc4f805681ba:read' # Grails
+  - 'entrytypes.702e9387-5622-466f-afd1-bd98e723405b:read' # Default
+  - 'sections.e66b318a-f1ae-41a2-9847-f932df5b1e9e:read' # Hexes
+  - 'entrytypes.203975e2-77e1-4b73-9fcc-cde90ba8d389:read' # Default
+  - 'sections.a9b7128b-8bcb-42d2-afbf-0eaee41ecae3:read' # Mannerisms
+  - 'entrytypes.97e7c97c-2958-40c1-9a92-8fa6d52f5cb1:read' # Default
+  - 'sections.368c2e79-b61c-4c3c-8596-cccb2a2df9a6:read' # Races
+  - 'entrytypes.2bc39fa7-c992-4808-a820-ecfe8dba57e1:read' # Default
+  - 'volumes.a5dec25a-a8ce-4442-ad1d-84d803d24c8c:read' # Static
+  - 'globalsets.ad385327-e9f6-4dd9-928b-122b65c91b89:read' # About
+  - 'usergroups.everyone:read'
+  - 'usergroups.48079982-f1b0-44fd-96e2-c6b72f635cd3:read' # Player
+  - 'taggroups.272966b7-3d6c-43cb-9123-f675b9986e44:read' # Seasons
+  - 'comments:read'
+  - 'sections.3aea7df2-ac43-497d-a1c8-fcfd3c70f02b:edit' # Characters
+  - 'entrytypes.2138fb18-bf82-4829-9d16-650d3d6b5193:edit' # Default
+  - 'entrytypes.2138fb18-bf82-4829-9d16-650d3d6b5193:create' # Default
+  - 'entrytypes.2138fb18-bf82-4829-9d16-650d3d6b5193:save' # Default
+  - 'entrytypes.2138fb18-bf82-4829-9d16-650d3d6b5193:delete' # Default
+  - 'sections.052d9fea-7f29-4e6e-8348-6aa47c7d8e7c:edit' # Classes
+  - 'entrytypes.2d45fa3c-eaa1-4dbd-9e09-29e7103d62a9:edit' # Class
+  - 'entrytypes.2d45fa3c-eaa1-4dbd-9e09-29e7103d62a9:create' # Class
+  - 'entrytypes.2d45fa3c-eaa1-4dbd-9e09-29e7103d62a9:save' # Class
+  - 'entrytypes.2d45fa3c-eaa1-4dbd-9e09-29e7103d62a9:delete' # Class
+  - 'entrytypes.4ec0b5ed-f386-4e6f-b2ec-49c141c9e5d2:edit' # Feat
+  - 'entrytypes.4ec0b5ed-f386-4e6f-b2ec-49c141c9e5d2:create' # Feat
+  - 'entrytypes.4ec0b5ed-f386-4e6f-b2ec-49c141c9e5d2:save' # Feat
+  - 'entrytypes.4ec0b5ed-f386-4e6f-b2ec-49c141c9e5d2:delete' # Feat
+  - 'sections.9ff1f8b2-1e47-47fa-be1d-1b539159ecbc:edit' # Encounters
+  - 'entrytypes.019deb3d-1820-4951-aaf9-1071ecabc178:edit' # Default
+  - 'entrytypes.019deb3d-1820-4951-aaf9-1071ecabc178:create' # Default
+  - 'entrytypes.019deb3d-1820-4951-aaf9-1071ecabc178:save' # Default
+  - 'entrytypes.019deb3d-1820-4951-aaf9-1071ecabc178:delete' # Default
+  - 'sections.845d17ac-d979-4b8b-aa17-89ecc82a0b2f:edit' # Fables
+  - 'entrytypes.0ba09a69-319b-4981-ac2f-ca985cc1eded:edit' # Default
+  - 'entrytypes.0ba09a69-319b-4981-ac2f-ca985cc1eded:create' # Default
+  - 'entrytypes.0ba09a69-319b-4981-ac2f-ca985cc1eded:save' # Default
+  - 'entrytypes.0ba09a69-319b-4981-ac2f-ca985cc1eded:delete' # Default
+  - 'sections.b49a84fa-d0e2-4861-9efd-6318d14f5b19:edit' # Fabrications
+  - 'entrytypes.a324f0b4-cc2d-4eee-9370-5884023e160c:edit' # Default
+  - 'entrytypes.a324f0b4-cc2d-4eee-9370-5884023e160c:create' # Default
+  - 'entrytypes.a324f0b4-cc2d-4eee-9370-5884023e160c:save' # Default
+  - 'entrytypes.a324f0b4-cc2d-4eee-9370-5884023e160c:delete' # Default
+  - 'sections.5da5c0cc-6782-47b8-a32e-5e2d9c70161b:edit' # Fixtures
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:edit' # Default
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:create' # Default
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:save' # Default
+  - 'entrytypes.db17d3cf-9e50-41e6-bd0a-abecc5b2024b:delete' # Default
+  - 'sections.fd9166ee-7883-460c-8361-a8146b16404e:edit' # Former Professions 
+  - 'entrytypes.a712fba7-262a-4871-b2ac-dd85b7991036:edit' # Default
+  - 'entrytypes.a712fba7-262a-4871-b2ac-dd85b7991036:create' # Default
+  - 'entrytypes.a712fba7-262a-4871-b2ac-dd85b7991036:save' # Default
+  - 'entrytypes.a712fba7-262a-4871-b2ac-dd85b7991036:delete' # Default
+  - 'sections.a415b1bd-53f0-4e63-9265-fc72c759c4d3:edit' # Game Sytems
+  - 'entrytypes.9b89da69-9d5a-4c84-8725-936984327758:edit' # Rules
+  - 'entrytypes.9b89da69-9d5a-4c84-8725-936984327758:create' # Rules
+  - 'entrytypes.9b89da69-9d5a-4c84-8725-936984327758:save' # Rules
+  - 'entrytypes.9b89da69-9d5a-4c84-8725-936984327758:delete' # Rules
+  - 'sections.356584fa-c0df-462f-aa26-cc4f805681ba:edit' # Grails
+  - 'entrytypes.702e9387-5622-466f-afd1-bd98e723405b:edit' # Default
+  - 'entrytypes.702e9387-5622-466f-afd1-bd98e723405b:create' # Default
+  - 'entrytypes.702e9387-5622-466f-afd1-bd98e723405b:save' # Default
+  - 'entrytypes.702e9387-5622-466f-afd1-bd98e723405b:delete' # Default
+  - 'sections.e66b318a-f1ae-41a2-9847-f932df5b1e9e:edit' # Hexes
+  - 'entrytypes.203975e2-77e1-4b73-9fcc-cde90ba8d389:edit' # Default
+  - 'entrytypes.203975e2-77e1-4b73-9fcc-cde90ba8d389:create' # Default
+  - 'entrytypes.203975e2-77e1-4b73-9fcc-cde90ba8d389:save' # Default
+  - 'entrytypes.203975e2-77e1-4b73-9fcc-cde90ba8d389:delete' # Default
+  - 'sections.a9b7128b-8bcb-42d2-afbf-0eaee41ecae3:edit' # Mannerisms
+  - 'entrytypes.97e7c97c-2958-40c1-9a92-8fa6d52f5cb1:edit' # Default
+  - 'entrytypes.97e7c97c-2958-40c1-9a92-8fa6d52f5cb1:create' # Default
+  - 'entrytypes.97e7c97c-2958-40c1-9a92-8fa6d52f5cb1:save' # Default
+  - 'entrytypes.97e7c97c-2958-40c1-9a92-8fa6d52f5cb1:delete' # Default
+  - 'sections.368c2e79-b61c-4c3c-8596-cccb2a2df9a6:edit' # Races
+  - 'entrytypes.2bc39fa7-c992-4808-a820-ecfe8dba57e1:edit' # Default
+  - 'entrytypes.2bc39fa7-c992-4808-a820-ecfe8dba57e1:create' # Default
+  - 'entrytypes.2bc39fa7-c992-4808-a820-ecfe8dba57e1:save' # Default
+  - 'entrytypes.2bc39fa7-c992-4808-a820-ecfe8dba57e1:delete' # Default
+  - 'volumes.a5dec25a-a8ce-4442-ad1d-84d803d24c8c:edit' # Static
+  - 'volumes.a5dec25a-a8ce-4442-ad1d-84d803d24c8c:create' # Static
+  - 'volumes.a5dec25a-a8ce-4442-ad1d-84d803d24c8c:save' # Static
+  - 'volumes.a5dec25a-a8ce-4442-ad1d-84d803d24c8c:delete' # Static
+  - 'globalsets.ad385327-e9f6-4dd9-928b-122b65c91b89:edit' # About
+  - 'taggroups.272966b7-3d6c-43cb-9123-f675b9986e44:edit' # Seasons
+  - 'taggroups.272966b7-3d6c-43cb-9123-f675b9986e44:save' # Seasons
+  - 'taggroups.272966b7-3d6c-43cb-9123-f675b9986e44:delete' # Seasons
+  - 'comments:edit'
+  - 'comments:save'
+  - 'comments:delete'

@@ -1,0 +1,20 @@
+columnSuffix: qrjooaly
+contentColumnType: smallint(1)
+fieldGroup: e2f498db-79cf-4841-ba2d-31517d20d39e # Equipment
+handle: climbingToolValue
+instructions: null
+name: 'Climbing Tool Value'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 0
+  max: 1
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

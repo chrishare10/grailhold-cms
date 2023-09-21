@@ -1,0 +1,43 @@
+fieldLayouts:
+  9c1bfc75-3f3f-4b88-978d-fcf13427448e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 56f5998e-6b8a-442a-9585-396453cdc382
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f26fa2d7-fb0d-445f-88f9-c277fca154f3
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 368c2e79-b61c-4c3c-8596-cccb2a2df9a6 # Races
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

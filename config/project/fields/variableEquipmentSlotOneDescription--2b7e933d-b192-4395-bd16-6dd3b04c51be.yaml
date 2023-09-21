@@ -1,0 +1,19 @@
+columnSuffix: sowykohv
+contentColumnType: text
+fieldGroup: e2f498db-79cf-4841-ba2d-31517d20d39e # Equipment
+handle: variableEquipmentSlotOneDescription
+instructions: null
+name: 'Variable Equipment Slot One Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

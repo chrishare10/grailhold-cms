@@ -1,0 +1,86 @@
+field: bafa9109-2c9d-4e42-b92c-cf48c864db27 # Playbook Matrix
+fieldLayouts:
+  5fd4c1f1-ca08-49b3-9c00-7da35d24d46e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 99c7126b-8711-4236-94a2-2a9f3759ca86 # Feat Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 46a8b632-3f8d-4480-91f0-55d99805530b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cd3d5c7d-8a5b-464f-b7a7-f05ce2ed6976 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 18ff76ac-e7ee-4829-9d1e-36571104d1a5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ca1a9470-8807-47f6-adee-6480cbbf6d44
+        userCondition: null
+fields:
+  99c7126b-8711-4236-94a2-2a9f3759ca86: # Feat Title
+    columnSuffix: pxifyxcm
+    contentColumnType: text
+    fieldGroup: null
+    handle: featTitle
+    instructions: null
+    name: 'Feat Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  cd3d5c7d-8a5b-464f-b7a7-f05ce2ed6976: # Description
+    columnSuffix: buabgcyu
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: null
+    name: Description
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: featOption
+name: 'Feat Option'
+sortOrder: 1

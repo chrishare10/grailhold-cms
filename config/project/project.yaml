@@ -1,0 +1,1117 @@
+dateModified: 1694997435
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      heading: Structures
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:9ff1f8b2-1e47-47fa-be1d-1b539159ecbc' # Encounters
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:845d17ac-d979-4b8b-aa17-89ecc82a0b2f' # Fables
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:5da5c0cc-6782-47b8-a32e-5e2d9c70161b' # Fixtures
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      key: 'section:b49a84fa-d0e2-4861-9efd-6318d14f5b19' # Fabrications
+      type: native
+    -
+      key: 'section:356584fa-c0df-462f-aa26-cc4f805681ba' # Grails
+      type: native
+    -
+      heading: 'Character Options'
+      type: heading
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:3aea7df2-ac43-497d-a1c8-fcfd3c70f02b' # Characters
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      key: 'section:052d9fea-7f29-4e6e-8348-6aa47c7d8e7c' # Classes
+      type: native
+    -
+      key: 'section:368c2e79-b61c-4c3c-8596-cccb2a2df9a6' # Races
+      type: native
+    -
+      key: 'section:fd9166ee-7883-460c-8361-a8146b16404e' # Former Professions 
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:a9b7128b-8bcb-42d2-afbf-0eaee41ecae3' # Mannerisms
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      heading: Rules
+      type: heading
+    -
+      key: 'section:a415b1bd-53f0-4e63-9265-fc72c759c4d3' # Game Sytems
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:e66b318a-f1ae-41a2-9847-f932df5b1e9e' # Hexes
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+email:
+  fromEmail: team@grailhold.com
+  fromName: Grailhold
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    apiKey: 923e2159a983801a08c23a8651f6e399
+    apiSecret: 0688fb3e8d3e98a40fcc8256fd554ff7
+  transportType: robuust\mailjet\MailjetAdapter
+fs:
+  volumes:
+    hasUrls: true
+    name: Volumes
+    settings:
+      path: '@webroot/assets/volumes'
+    type: craft\fs\Local
+    url: '@web/assets/volumes'
+meta:
+  __names__:
+    0a5341cf-04e3-48b2-9a8a-e838b7a01d57: 'Armor Value' # Armor Value
+    0b44bd82-3a41-4103-ac55-03eafad3d484: Aiming # Aiming
+    0ba09a69-319b-4981-ac2f-ca985cc1eded: Default # Default
+    0c5321f1-bb0d-46eb-9272-c773ed95f662: 'Text Area 08' # Text Area 08
+    1cd276a1-fc62-4410-b5d4-6c395cdac6b6: 'Characters Picker' # Characters Picker
+    2b1af383-2909-45d1-b416-3419b0311098: 'Image 01' # Image 01
+    2b7e933d-b192-4395-bd16-6dd3b04c51be: 'Variable Equipment Slot One Description' # Variable Equipment Slot One Description
+    2b8d2b57-95c4-4fe8-a83e-464da89c7df7: 'Track Order' # Track Order
+    2bc39fa7-c992-4808-a820-ecfe8dba57e1: Default # Default
+    2c158929-4ce2-49b2-a66d-cce30ef9c3c3: 'Image 14' # Image 14
+    2d45fa3c-eaa1-4dbd-9e09-29e7103d62a9: Class # Class
+    2face9b1-3fab-431a-8ce2-0a814dff228e: 'Audio File' # Audio File
+    3a2e00b2-54a3-4c9c-9b10-4ac8cf8e3628: 'Disguise Value' # Disguise Value
+    3aea7df2-ac43-497d-a1c8-fcfd3c70f02b: Characters # Characters
+    3bdb98c9-0059-4e7c-a7f0-677e1c28ace7: 'Shield Value' # Shield Value
+    3c0fa0b3-3811-47a8-a97c-2415f98d1a74: 'Performance Tool Value' # Performance Tool Value
+    3cf855e6-22b4-47d6-a1af-39809df4f636: Stress # Stress
+    4aa302b6-aecd-4a43-83f6-3d4e3b751035: 'Text Area 03' # Text Area 03
+    4ec0b5ed-f386-4e6f-b2ec-49c141c9e5d2: Feat # Feat
+    5b9c5a55-21d9-40d8-9256-f91bc5579fc5: 'Text Area 04' # Text Area 04
+    5b336b04-0ee7-4a60-9b1c-fec46eccc641: Striking # Striking
+    5bf4a522-ac48-4ea9-a4e1-8fd2cb06dbce: Lore # Lore
+    5da5c0cc-6782-47b8-a32e-5e2d9c70161b: Fixtures # Fixtures
+    6b38a564-d283-4e35-8b10-7cd1fb89abfb: 'Image 12' # Image 12
+    6c9f3ebd-779f-47c3-baba-c579aef22c99: Communication # Communication
+    6cd895b1-bf03-44dd-988a-db07cc09d56c: 'Image 15' # Image 15
+    7b0be5ea-906e-46fd-8c28-b124bc93beca: 'Text 08' # Text 08
+    8a93cd81-b9ea-4180-a2a8-ea81adca2fb3: 'Page Description' # Page Description
+    8b65a0dc-a7e5-4379-8828-0e25b6af21e5: 'Image 03' # Image 03
+    8c09d771-8171-455f-980a-ece42d66addf: 'Image 04' # Image 04
+    9b89da69-9d5a-4c84-8725-936984327758: Rules # Rules
+    9cdb4aec-c2b8-4cd4-91d6-46caf420596a: 'Text 03' # Text 03
+    9ff1f8b2-1e47-47fa-be1d-1b539159ecbc: Encounters # Encounters
+    013c7c9b-bcfe-4fe0-9057-36a449c320fe: 'Text 06' # Text 06
+    019deb3d-1820-4951-aaf9-1071ecabc178: Default # Default
+    24f91548-ab9a-41a9-bdf7-c1a0eca80ffe: 'Image 05' # Image 05
+    39b7ae58-d1e0-4c71-8bed-e758d1752b3f: 'File 01' # File 01
+    45e80173-9f7b-4f69-a626-fad627fd5777: 'Text Area 09' # Text Area 09
+    48fb9416-462a-47e6-b65f-682506c2c78d: 'Unusual Weapon Value' # Unusual Weapon Value
+    51adbf9d-694c-41e1-8b70-196225cb9ea3: Common # Common
+    052d9fea-7f29-4e6e-8348-6aa47c7d8e7c: Classes # Classes
+    55d8b45a-aedd-4b55-9fc2-b079ffdada12: 'First Aid Value' # First Aid Value
+    82de5fdf-2478-4665-abff-316698e9eeb6: 'User Picker' # User Picker
+    94e95c58-cc67-4d46-a351-7d504bd8fbe7: 'Light Source Value' # Light Source Value
+    97e7c97c-2958-40c1-9a92-8fa6d52f5cb1: Default # Default
+    99c7126b-8711-4236-94a2-2a9f3759ca86: 'Feat Title' # Feat Title
+    259b9bb4-8289-456e-8bc0-d8ff50718a34: 'Page Title' # Page Title
+    271d0ef4-f00a-4269-bf9c-4f2670fcc45e: 'Text Area 12' # Text Area 12
+    306bf74a-658b-494d-8899-256edfd935ed: 'Text Area 07' # Text Area 07
+    368c2e79-b61c-4c3c-8596-cccb2a2df9a6: Races # Races
+    485d483c-5435-4217-8ee1-6fe26819ea7c: 'Grails Picker' # Grails Picker
+    549e3413-7828-47a8-a865-a7ceefcadb6a: Grailhold # Grailhold
+    576cf389-975c-4b94-9cd5-6d0d1461439f: 'Image 02' # Image 02
+    702e9387-5622-466f-afd1-bd98e723405b: Default # Default
+    743c097a-2cd8-4553-a10c-e78018f8ba44: Athletics # Athletics
+    769fe76f-7b58-4e4f-9785-d3f76c22a73e: 'Mannerism Picker' # Mannerism Picker
+    834ec2e6-0005-4034-a045-0d8a0d24ec94: Nature # Nature
+    845d17ac-d979-4b8b-aa17-89ecc82a0b2f: Fables # Fables
+    971d9610-17b3-46c9-a00c-31542f4a9ec0: 'Class Picker' # Class Picker
+    2097ca77-3d52-4c43-9349-9ab94034b102: 'Image 13' # Image 13
+    2138fb18-bf82-4829-9d16-650d3d6b5193: Default # Default
+    6204d4c6-dfdb-418b-9471-a2f590099867: 'Documents Value' # Documents Value
+    07895bd7-9624-4691-994f-1bf3418de28d: 'Climbing Tool Value' # Climbing Tool Value
+    8378a942-36f7-4b13-87ff-6c8fcfdd6ca8: 'Text Area 02' # Text Area 02
+    8395c8cf-fa31-4320-87ef-14669d869caa: 'Demolition Tool Value' # Demolition Tool Value
+    34113f49-6187-41c5-806c-e26084f974ba: Grailhold # Grailhold
+    48830c8f-d2e4-4358-9a07-e909eb7fa688: Grailhold # Grailhold
+    050852e9-2768-4f55-9792-fe609ac10fdf: 'Text Area 14' # Text Area 14
+    078656c4-d121-4e18-bae5-7e0476e9db50: 'Text 07' # Text 07
+    84679f20-2732-42b4-a50e-1111708be80e: 'Subclass Picker' # Subclass Picker
+    103380fc-b583-4f14-ba0b-1603e3553842: Attributes # Attributes
+    203975e2-77e1-4b73-9fcc-cde90ba8d389: Default # Default
+    272966b7-3d6c-43cb-9123-f675b9986e44: Seasons # Seasons
+    356584fa-c0df-462f-aa26-cc4f805681ba: Grails # Grails
+    756888ef-8a3d-449c-9f57-f01a44ec7220: 'Approved Entry' # Approved Entry
+    891406c9-86fa-42b5-9b7f-8704a1967796: 'Text 05' # Text 05
+    04059342-bf76-45e9-853d-c13ad88dfee1: 'Text 02' # Text 02
+    8669582a-8cc8-47d4-aa57-09d736bcf888: 'Lightswitch 01' # Lightswitch 01
+    41496654-98bc-4bc3-8157-435afe624dfc: 'Image 08' # Image 08
+    48079982-f1b0-44fd-96e2-c6b72f635cd3: Player # Player
+    95588977-e3f9-4f49-9410-7eca061aff3e: 'Hex ID' # Hex ID
+    a0d1a088-be6c-47ca-97ce-c7f332fb5abc: Tinker # Tinker
+    a2b163d6-f50b-4814-b880-6e28a9d73608: Performance # Performance
+    a2ed387b-af85-493c-92d5-4124282a0414: Healing # Healing
+    a5dec25a-a8ce-4442-ad1d-84d803d24c8c: Static # Static
+    a9b7128b-8bcb-42d2-afbf-0eaee41ecae3: Mannerisms # Mannerisms
+    a81dc2ab-5d65-4450-b66f-007367aaf8af: 'Image 10' # Image 10
+    a97c957d-1223-4286-b25c-6c1d8d12e4e3: 'Image 07' # Image 07
+    a324f0b4-cc2d-4eee-9370-5884023e160c: Default # Default
+    a415b1bd-53f0-4e63-9265-fc72c759c4d3: 'Game Sytems' # Game Sytems
+    a712fba7-262a-4871-b2ac-dd85b7991036: Default # Default
+    ac4ed950-31b5-44f7-b593-097e217af77c: 'Text Area 01' # Text Area 01
+    ac9469b9-d9ec-4942-9201-0ad74530ec59: 'Text Area 05' # Text Area 05
+    acbe8372-679d-4da6-9cfd-02aa35394a02: 'Text 04' # Text 04
+    ad087883-fcac-42cf-9ba8-b35a4f75a955: 'Text Area 13' # Text Area 13
+    ad385327-e9f6-4dd9-928b-122b65c91b89: About # About
+    af9e0f34-c433-40dc-b922-99f9d9a0a282: Stealth # Stealth
+    b18a3f06-1c9b-4da6-b9a7-cc3bf9ff4260: 'Melee Weapon Value' # Melee Weapon Value
+    b26bfc6c-a1be-4283-8274-2bc666324c53: 'Image 09' # Image 09
+    b26e712a-38d9-4441-b393-7271d4dec300: 'Text 09' # Text 09
+    b49a84fa-d0e2-4861-9efd-6318d14f5b19: Fabrications # Fabrications
+    b55eab01-5966-452f-8152-07ec52bf0637: Order # Order
+    baf1be30-d9bd-4b40-8956-5e2b3a4570fd: 'Landmark Boolean' # Landmark Boolean
+    bafa9109-2c9d-4e42-b92c-cf48c864db27: 'Playbook Matrix' # Playbook Matrix
+    be0cf28e-b854-4f4f-865d-261f73af31d2: 'Text Area 06' # Text Area 06
+    c4e4e401-917f-4ac2-80b9-334007bf199a: 'Game Master Switch' # Game Master Switch
+    c39963a8-70b5-41ed-8117-9aae6c4abaf0: 'Public Schema' # Public Schema
+    cd3d5c7d-8a5b-464f-b7a7-f05ce2ed6976: Description # Description
+    cf8727b2-d612-4aec-9858-65c4f5bc013a: 'Image 06' # Image 06
+    d8ad8265-f77d-40db-8680-ec0787d4d971: Perception # Perception
+    d62ac653-eab0-4a15-87ae-c4c602dfe837: 'Text Area 11' # Text Area 11
+    db17d3cf-9e50-41e6-bd0a-abecc5b2024b: Default # Default
+    dbc064ca-2471-431e-ba94-5052a1642ff6: 'Lightswitch 02' # Lightswitch 02
+    dbf33239-41b2-4ffa-b029-1e275fc9fc02: 'Former Professions Picker' # Former Professions Picker
+    dddf7ea3-313c-40c7-95c1-4cb48707093c: 'Ranged Weapon Value' # Ranged Weapon Value
+    e0c571c3-dacc-4892-b8a4-d03dbb8cc231: 'Entry Picker 01' # Entry Picker 01
+    e0725554-a269-4a2c-be83-47811cfdcb56: 'Variable Equipment Slot One Value' # Variable Equipment Slot One Value
+    e2dfd792-4fe2-4c05-841b-fd263dc8fa68: 'Text Area 10' # Text Area 10
+    e2f498db-79cf-4841-ba2d-31517d20d39e: Equipment # Equipment
+    e52bc2cf-7e18-40b1-8181-e93db40e22e9: 'Entries Picker' # Entries Picker
+    e66b318a-f1ae-41a2-9847-f932df5b1e9e: Hexes # Hexes
+    e875b1f7-d7e5-4762-b8cb-461d723eae05: 'Image 11' # Image 11
+    e4615e4d-f312-4be1-9cf4-aa526c3bb4ca: Insight # Insight
+    efaec771-dbd7-487a-ae8b-d6c527d64c13: 'Feat Option' # Feat Option
+    efc16731-2af7-4e75-b152-d8fe698536c8: 'Character Picker' # Character Picker
+    f3b54e46-22a7-4feb-873e-8cd3f37123c3: 'Text Area 15' # Text Area 15
+    f56f2799-28d2-405c-86ff-0bd4095eb19e: 'Navigational Tool Value' # Navigational Tool Value
+    f2598ba3-cedf-425e-a3c5-e84b8fed1b93: 'Tinkering Tool Value' # Tinkering Tool Value
+    fadbfb74-2ba7-46e8-bdd7-ed0a8d04a6ad: 'Text 01' # Text 01
+    fc3cbe05-91cc-4455-86db-8ae370588baf: 'Attributes Limit' # Attributes Limit
+    fd2db238-669d-46fc-99ef-17c06f9860a8: 'Text 10' # Text 10
+    fd9166ee-7883-460c-8361-a8146b16404e: 'Former Professions ' # Former Professions 
+    ff9b819a-2f39-4d6e-a5bb-9861baf2ad00: 'Load Value' # Load Value
+plugins:
+  comments:
+    edition: standard
+    enabled: true
+    licenseKey: M8OO05Y26I3VQP7R7CZA2UVY
+    schemaVersion: 1.1.7
+    settings:
+      allowFlagging: true
+      allowGuest: false
+      allowGuestFlagging: false
+      allowGuestVoting: false
+      allowVoting: true
+      autoCloseDays: null
+      closed: false
+      defaultQueryStatus:
+        - approved
+      downvoteCommentLimit: 5
+      enableGravatar: false
+      enableSpamChecks: true
+      flaggedCommentLimit: 5
+      guestNotice: null
+      guestRequireEmailName: true
+      guestShowEmailName: true
+      hideVotingForThreshold: false
+      indexSidebarGroup: true
+      indexSidebarIndividualElements: false
+      indexSidebarLimit: 25
+      maxReplyDepth: null
+      maxUserComments: null
+      moderatorUserGroup: null
+      notificationAdminEnabled: false
+      notificationAuthorEnabled: false
+      notificationFlaggedEnabled: false
+      notificationModeratorApprovedEnabled: false
+      notificationModeratorEnabled: false
+      notificationReplyEnabled: false
+      notificationSubscribeAuto: false
+      notificationSubscribeCommentEnabled: false
+      notificationSubscribeDefault: false
+      notificationSubscribeEnabled: false
+      outputDefaultCss: true
+      outputDefaultJs: true
+      permissions:
+        __assoc__:
+          -
+            - craft\elements\Asset
+            - '*'
+          -
+            - craft\elements\Category
+            - '*'
+          -
+            - craft\elements\Entry
+            - '*'
+          -
+            - craft\elements\User
+            - '*'
+      placeholderAvatar: null
+      recaptchaEnabled: false
+      recaptchaKey: null
+      recaptchaMinScore: 0.5
+      recaptchaSecret: null
+      requireModeration: false
+      securityBanned: null
+      securityFlooding: null
+      securityMatchExact: false
+      securityMaxLength: null
+      securityModeration: null
+      securitySpamlist: null
+      showAvatar: true
+      showCustomFieldInstructions: false
+      showCustomFieldNames: false
+      showTimeAgo: true
+      sortDefaultDirection: asc
+      sortDefaultKey: structure
+      structureUid: d2d51d9d-a45f-45b7-87ca-354b18f6f011
+      templateEmail: null
+      templateFolderOverride: null
+      useQueueForNotifications: false
+  feed-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 5.1.0.0
+  field-manager:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  graphql-authentication:
+    edition: standard
+    enabled: true
+    licenseKey: NDK2VGWNCPSZ9PJUBGIWUQMY
+    schemaVersion: 1.3.0
+    settings:
+      accountCooldown: 'Too many log in attempts; please try again shortly'
+      accountDeleted: 'Successfully deleted account'
+      accountLocked: 'Sorry, your account is currently locked'
+      activationEmailSent: 'You will receive an email if it matches an account in our system'
+      allowMagicAuthentication: '1'
+      allowRegistration: '1'
+      allowTwoFactorAuthentication: false
+      allowedFacebookDomains: null
+      allowedGoogleDomains: null
+      allowedMicrosoftDomains: null
+      allowedTwitterDomains: null
+      appleClientId: null
+      appleClientSecret: null
+      appleRedirectUrl: null
+      appleServiceId: null
+      appleServiceSecret: null
+      assetMutations:
+        __assoc__:
+          -
+            - static
+            - ''
+      assetNotFound: 'We couldn''t find any matching assets'
+      assetQueries:
+        __assoc__:
+          -
+            - static
+            - ''
+      emailNotInScope: 'No email in scope'
+      entryMutations:
+        __assoc__:
+          -
+            - characters
+            - ''
+          -
+            - encounters
+            - ''
+          -
+            - fixtures
+            - ''
+          -
+            - gameSystems
+            - ''
+          -
+            - hexes
+            - ''
+      entryNotFound: 'We couldn''t find any matching entries'
+      entryQueries:
+        __assoc__:
+          -
+            - characters
+            - ''
+          -
+            - encounters
+            - ''
+          -
+            - fixtures
+            - ''
+          -
+            - gameSystems
+            - ''
+          -
+            - grails
+            - ''
+          -
+            - hexes
+            - ''
+      facebookAppId: null
+      facebookAppSecret: null
+      facebookEmailMismatch: 'Email address doesn''t match allowed Facebook domains'
+      facebookRedirectUrl: null
+      fieldRestrictions:
+        __assoc__:
+          -
+            - schema-1
+            -
+              __assoc__:
+                -
+                  - attribute01
+                  - queryMutate
+                -
+                  - attribute02
+                  - queryMutate
+                -
+                  - attribute03
+                  - queryMutate
+                -
+                  - attribute04
+                  - queryMutate
+                -
+                  - attribute05
+                  - queryMutate
+                -
+                  - attribute06
+                  - queryMutate
+                -
+                  - attribute07
+                  - queryMutate
+                -
+                  - attribute08
+                  - queryMutate
+                -
+                  - attribute09
+                  - queryMutate
+                -
+                  - attribute10
+                  - queryMutate
+                -
+                  - attribute11
+                  - queryMutate
+                -
+                  - attribute12
+                  - queryMutate
+                -
+                  - audioFile
+                  - queryMutate
+                -
+                  - classPicker
+                  - queryMutate
+                -
+                  - entriesPicker
+                  - queryMutate
+                -
+                  - entryPicker01
+                  - queryMutate
+                -
+                  - grailsPicker
+                  - queryMutate
+                -
+                  - hexId
+                  - queryMutate
+                -
+                  - image01
+                  - queryMutate
+                -
+                  - image02
+                  - queryMutate
+                -
+                  - image03
+                  - queryMutate
+                -
+                  - image04
+                  - queryMutate
+                -
+                  - image05
+                  - queryMutate
+                -
+                  - image06
+                  - queryMutate
+                -
+                  - image07
+                  - queryMutate
+                -
+                  - image08
+                  - queryMutate
+                -
+                  - image09
+                  - queryMutate
+                -
+                  - image10
+                  - queryMutate
+                -
+                  - image11
+                  - queryMutate
+                -
+                  - image12
+                  - queryMutate
+                -
+                  - image13
+                  - queryMutate
+                -
+                  - image14
+                  - queryMutate
+                -
+                  - image15
+                  - queryMutate
+                -
+                  - lightswitch01
+                  - queryMutate
+                -
+                  - lightswitch02
+                  - queryMutate
+                -
+                  - mannerismPicker
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - pageDescription
+                  - queryMutate
+                -
+                  - pageTitle
+                  - queryMutate
+                -
+                  - stress
+                  - queryMutate
+                -
+                  - subclassPicker
+                  - queryMutate
+                -
+                  - text01
+                  - queryMutate
+                -
+                  - text02
+                  - queryMutate
+                -
+                  - text03
+                  - queryMutate
+                -
+                  - text04
+                  - queryMutate
+                -
+                  - text05
+                  - queryMutate
+                -
+                  - text06
+                  - queryMutate
+                -
+                  - text07
+                  - queryMutate
+                -
+                  - text08
+                  - queryMutate
+                -
+                  - text09
+                  - queryMutate
+                -
+                  - text10
+                  - queryMutate
+                -
+                  - textArea01
+                  - queryMutate
+                -
+                  - textArea02
+                  - queryMutate
+                -
+                  - textArea03
+                  - queryMutate
+                -
+                  - textArea04
+                  - queryMutate
+                -
+                  - textArea05
+                  - queryMutate
+                -
+                  - textArea06
+                  - queryMutate
+                -
+                  - textArea07
+                  - queryMutate
+                -
+                  - textArea08
+                  - queryMutate
+                -
+                  - textArea09
+                  - queryMutate
+                -
+                  - textArea10
+                  - queryMutate
+                -
+                  - textArea11
+                  - queryMutate
+                -
+                  - textArea12
+                  - queryMutate
+                -
+                  - textArea13
+                  - queryMutate
+                -
+                  - textArea14
+                  - queryMutate
+                -
+                  - textArea15
+                  - queryMutate
+                -
+                  - trackOrder
+                  - queryMutate
+                -
+                  - userPicker
+                  - queryMutate
+          -
+            - schema-Grailhold
+            -
+              __assoc__:
+                -
+                  - attribute01
+                  - queryMutate
+                -
+                  - attribute02
+                  - queryMutate
+                -
+                  - attribute03
+                  - queryMutate
+                -
+                  - attribute04
+                  - queryMutate
+                -
+                  - attribute05
+                  - queryMutate
+                -
+                  - attribute06
+                  - queryMutate
+                -
+                  - attribute07
+                  - queryMutate
+                -
+                  - attribute08
+                  - queryMutate
+                -
+                  - attribute09
+                  - queryMutate
+                -
+                  - attribute10
+                  - queryMutate
+                -
+                  - attribute11
+                  - queryMutate
+                -
+                  - attribute12
+                  - queryMutate
+                -
+                  - audioFile
+                  - queryMutate
+                -
+                  - classPicker
+                  - queryMutate
+                -
+                  - entriesPicker
+                  - queryMutate
+                -
+                  - entryPicker01
+                  - queryMutate
+                -
+                  - grailsPicker
+                  - queryMutate
+                -
+                  - hexId
+                  - queryMutate
+                -
+                  - image01
+                  - queryMutate
+                -
+                  - image02
+                  - queryMutate
+                -
+                  - image03
+                  - queryMutate
+                -
+                  - image04
+                  - queryMutate
+                -
+                  - image05
+                  - queryMutate
+                -
+                  - image06
+                  - queryMutate
+                -
+                  - image07
+                  - queryMutate
+                -
+                  - image08
+                  - queryMutate
+                -
+                  - image09
+                  - queryMutate
+                -
+                  - image10
+                  - queryMutate
+                -
+                  - image11
+                  - queryMutate
+                -
+                  - image12
+                  - queryMutate
+                -
+                  - image13
+                  - queryMutate
+                -
+                  - image14
+                  - queryMutate
+                -
+                  - image15
+                  - queryMutate
+                -
+                  - lightswitch01
+                  - queryMutate
+                -
+                  - lightswitch02
+                  - queryMutate
+                -
+                  - mannerismPicker
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - pageDescription
+                  - queryMutate
+                -
+                  - pageTitle
+                  - queryMutate
+                -
+                  - stress
+                  - queryMutate
+                -
+                  - subclassPicker
+                  - queryMutate
+                -
+                  - text01
+                  - queryMutate
+                -
+                  - text02
+                  - queryMutate
+                -
+                  - text03
+                  - queryMutate
+                -
+                  - text04
+                  - queryMutate
+                -
+                  - text05
+                  - queryMutate
+                -
+                  - text06
+                  - queryMutate
+                -
+                  - text07
+                  - queryMutate
+                -
+                  - text08
+                  - queryMutate
+                -
+                  - text09
+                  - queryMutate
+                -
+                  - text10
+                  - queryMutate
+                -
+                  - textArea01
+                  - queryMutate
+                -
+                  - textArea02
+                  - queryMutate
+                -
+                  - textArea03
+                  - queryMutate
+                -
+                  - textArea04
+                  - queryMutate
+                -
+                  - textArea05
+                  - queryMutate
+                -
+                  - textArea06
+                  - queryMutate
+                -
+                  - textArea07
+                  - queryMutate
+                -
+                  - textArea08
+                  - queryMutate
+                -
+                  - textArea09
+                  - queryMutate
+                -
+                  - textArea10
+                  - queryMutate
+                -
+                  - textArea11
+                  - queryMutate
+                -
+                  - textArea12
+                  - queryMutate
+                -
+                  - textArea13
+                  - queryMutate
+                -
+                  - textArea14
+                  - queryMutate
+                -
+                  - textArea15
+                  - queryMutate
+                -
+                  - trackOrder
+                  - queryMutate
+                -
+                  - userPicker
+                  - queryMutate
+          -
+            - 'schema-Public Schema'
+            -
+              __assoc__:
+                -
+                  - attribute01
+                  - queryMutate
+                -
+                  - attribute02
+                  - queryMutate
+                -
+                  - attribute03
+                  - queryMutate
+                -
+                  - attribute04
+                  - queryMutate
+                -
+                  - attribute05
+                  - queryMutate
+                -
+                  - attribute06
+                  - queryMutate
+                -
+                  - attribute07
+                  - queryMutate
+                -
+                  - attribute08
+                  - queryMutate
+                -
+                  - attribute09
+                  - queryMutate
+                -
+                  - attribute10
+                  - queryMutate
+                -
+                  - attribute11
+                  - queryMutate
+                -
+                  - attribute12
+                  - queryMutate
+                -
+                  - audioFile
+                  - queryMutate
+                -
+                  - classPicker
+                  - queryMutate
+                -
+                  - entriesPicker
+                  - queryMutate
+                -
+                  - entryPicker01
+                  - queryMutate
+                -
+                  - grailsPicker
+                  - queryMutate
+                -
+                  - hexId
+                  - queryMutate
+                -
+                  - image01
+                  - queryMutate
+                -
+                  - image02
+                  - queryMutate
+                -
+                  - image03
+                  - queryMutate
+                -
+                  - image04
+                  - queryMutate
+                -
+                  - image05
+                  - queryMutate
+                -
+                  - image06
+                  - queryMutate
+                -
+                  - image07
+                  - queryMutate
+                -
+                  - image08
+                  - queryMutate
+                -
+                  - image09
+                  - queryMutate
+                -
+                  - image10
+                  - queryMutate
+                -
+                  - image11
+                  - queryMutate
+                -
+                  - image12
+                  - queryMutate
+                -
+                  - image13
+                  - queryMutate
+                -
+                  - image14
+                  - queryMutate
+                -
+                  - image15
+                  - queryMutate
+                -
+                  - lightswitch01
+                  - queryMutate
+                -
+                  - lightswitch02
+                  - queryMutate
+                -
+                  - mannerismPicker
+                  - queryMutate
+                -
+                  - order
+                  - queryMutate
+                -
+                  - pageDescription
+                  - queryMutate
+                -
+                  - pageTitle
+                  - queryMutate
+                -
+                  - stress
+                  - queryMutate
+                -
+                  - subclassPicker
+                  - queryMutate
+                -
+                  - text01
+                  - queryMutate
+                -
+                  - text02
+                  - queryMutate
+                -
+                  - text03
+                  - queryMutate
+                -
+                  - text04
+                  - queryMutate
+                -
+                  - text05
+                  - queryMutate
+                -
+                  - text06
+                  - queryMutate
+                -
+                  - text07
+                  - queryMutate
+                -
+                  - text08
+                  - queryMutate
+                -
+                  - text09
+                  - queryMutate
+                -
+                  - text10
+                  - queryMutate
+                -
+                  - textArea01
+                  - queryMutate
+                -
+                  - textArea02
+                  - queryMutate
+                -
+                  - textArea03
+                  - queryMutate
+                -
+                  - textArea04
+                  - queryMutate
+                -
+                  - textArea05
+                  - queryMutate
+                -
+                  - textArea06
+                  - queryMutate
+                -
+                  - textArea07
+                  - queryMutate
+                -
+                  - textArea08
+                  - queryMutate
+                -
+                  - textArea09
+                  - queryMutate
+                -
+                  - textArea10
+                  - queryMutate
+                -
+                  - textArea11
+                  - queryMutate
+                -
+                  - textArea12
+                  - queryMutate
+                -
+                  - textArea13
+                  - queryMutate
+                -
+                  - textArea14
+                  - queryMutate
+                -
+                  - textArea15
+                  - queryMutate
+                -
+                  - trackOrder
+                  - queryMutate
+                -
+                  - userPicker
+                  - queryMutate
+      forbiddenField: 'User doesn''t have permission to access requested field(s)'
+      forbiddenMutation: 'User doesn''t have permission to perform this mutation'
+      googleClientId: null
+      googleEmailMismatch: 'Email address doesn''t match allowed Google domains'
+      googleTokenIdInvalid: 'Invalid Google Token ID'
+      granularSchemas: null
+      invalidEmailAddress: 'Invalid email address'
+      invalidHeader: 'Invalid Authorization Header'
+      invalidJwtSecretKey: 'Invalid JWT Secret Key'
+      invalidLogin: 'We couldn''t log you in with the provided details'
+      invalidMagicCode: 'Invalid magic code'
+      invalidOauthToken: 'Invalid OAuth Token'
+      invalidPasswordMatch: 'Passwords do not match'
+      invalidPasswordUpdate: 'We couldn''t update the password with the provided details'
+      invalidRefreshToken: 'Invalid Refresh Token'
+      invalidRequest: 'Cannot validate request'
+      invalidSchema: 'No schema has been set for this user group'
+      invalidUserUpdate: 'We couldn''t update the user with the provided details'
+      jwtExpiration: '1 day'
+      jwtRefreshExpiration: '3 months'
+      jwtSecretKey: khXeD3L6ZtZrzA-XOsgeEDr16KHoQJvG
+      magicLinkSent: 'You will receive an email if it matches an account in our system'
+      microsoftAppId: null
+      microsoftAppSecret: null
+      microsoftEmailMismatch: 'Email address doesn''t match allowed Microsoft domains'
+      microsoftRedirectUrl: null
+      passwordResetRequired: 'Password reset required; please check your email'
+      passwordResetSent: 'You will receive an email if it matches an account in our system'
+      passwordSaved: 'Successfully saved password'
+      passwordUpdated: 'Successfully updated password'
+      permissionType: single
+      sameSitePolicy: strict
+      schemaId: null
+      schemaName: Grailhold
+      siteId: null
+      skipActivatedCheck: null
+      skipSocialActivation: null
+      tokenNotFound: 'We couldn''t find any matching tokens'
+      twitterApiKey: null
+      twitterApiKeySecret: null
+      twitterEmailMismatch: 'Email address doesn''t match allowed Twitter domains'
+      twitterRedirectUrl: null
+      userActivated: 'Successfully activated user'
+      userGroup: '1'
+      userHasPassword: 'User not password-less'
+      userNotActivated: 'Please activate your account'
+      userNotFound: 'We couldn''t find any matching users'
+      volumeNotFound: 'We couldn''t find any matching volumes'
+  mailjet-adapter:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: Grailhold
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles

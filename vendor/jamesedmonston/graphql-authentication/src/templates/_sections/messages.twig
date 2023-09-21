@@ -1,0 +1,190 @@
+{% import '_includes/forms' as forms %}
+
+<h1>Response &amp; Error Messages</h1>
+
+{{ forms.field({
+  instructions: "Here you can customize the response and error messages returned/thrown from queries and mutations.",
+  first: true,
+}, '') }}
+
+<hr/>
+<h2>Responses</h2>
+
+{{ forms.textField({
+  label: 'Activation Email Sent',
+  name: 'activationEmailSent',
+  value: settings.activationEmailSent,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'User Not Activated',
+  name: 'userNotActivated',
+  value: settings.userNotActivated,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'User Activated',
+  name: 'userActivated',
+  value: settings.userActivated,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'User Has Password',
+  name: 'userHasPassword',
+  value: settings.userHasPassword,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Magic Link Sent',
+  name: 'magicLinkSent',
+  value: settings.magicLinkSent,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Password Saved',
+  name: 'passwordSaved',
+  value: settings.passwordSaved,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Password Updated',
+  name: 'passwordUpdated',
+  value: settings.passwordUpdated,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Password Reset Sent',
+  name: 'passwordResetSent',
+  value: settings.passwordResetSent,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Password Reset Required',
+  name: 'passwordResetRequired',
+  value: settings.passwordResetRequired,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Account Locked',
+  name: 'accountLocked',
+  value: settings.accountLocked,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Account Cooldown',
+  name: 'accountCooldown',
+  value: settings.accountCooldown,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Account Deleted',
+  name: 'accountDeleted',
+  value: settings.accountDeleted,
+  required: true,
+}) }}
+
+<hr/>
+<h2>Invalid</h2>
+
+{{ forms.textField({
+  label: 'Invalid Login',
+  name: 'invalidLogin',
+  value: settings.invalidLogin,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Invalid Password Match',
+  name: 'invalidPasswordMatch',
+  value: settings.invalidPasswordMatch,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Invalid Password Update',
+  name: 'invalidPasswordUpdate',
+  value: settings.invalidPasswordUpdate,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Invalid User Update',
+  name: 'invalidUserUpdate',
+  value: settings.invalidUserUpdate,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Invalid Magic Code',
+  name: 'invalidMagicCode',
+  value: settings.invalidMagicCode,
+  required: true,
+}) }}
+
+<hr/>
+<h2>Forbidden</h2>
+
+{{ forms.textField({
+  label: 'Forbidden Mutation',
+  name: 'forbiddenMutation',
+  value: settings.forbiddenMutation,
+  required: true,
+}) }}
+
+{{ forms.textField({
+  label: 'Forbidden Field',
+  name: 'forbiddenField',
+  value: settings.forbiddenField,
+  required: true,
+}) }}
+
+<hr/>
+<h2>Google</h2>
+
+{{ forms.textField({
+  label: 'Google Email Mismatch',
+  name: 'googleEmailMismatch',
+  value: settings.googleEmailMismatch,
+  required: true,
+}) }}
+
+<hr/>
+<h2>Facebook</h2>
+
+{{ forms.textField({
+  label: 'Facebook Email Mismatch',
+  name: 'facebookEmailMismatch',
+  value: settings.facebookEmailMismatch,
+  required: true,
+}) }}
+
+<hr/>
+<h2>Twitter</h2>
+
+{{ forms.textField({
+  label: 'Twitter Email Mismatch',
+  name: 'twitterEmailMismatch',
+  value: settings.twitterEmailMismatch,
+  required: true,
+}) }}
+
+<hr/>
+<h2>Microsoft</h2>
+
+{{ forms.textField({
+  label: 'Microsoft Email Mismatch',
+  name: 'microsoftEmailMismatch',
+  value: settings.microsoftEmailMismatch,
+  required: true,
+}) }}

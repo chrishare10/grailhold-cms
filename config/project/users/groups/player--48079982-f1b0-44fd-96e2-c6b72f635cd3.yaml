@@ -1,0 +1,18 @@
+description: ''
+handle: player
+name: Player
+permissions:
+  - 'createentries:5da5c0cc-6782-47b8-a32e-5e2d9c70161b' # Fixtures
+  - 'createentries:e66b318a-f1ae-41a2-9847-f932df5b1e9e' # Hexes
+  - 'deleteassets:a5dec25a-a8ce-4442-ad1d-84d803d24c8c' # Static
+  - 'deleteentries:5da5c0cc-6782-47b8-a32e-5e2d9c70161b' # Fixtures
+  - 'deleteentries:e66b318a-f1ae-41a2-9847-f932df5b1e9e' # Hexes
+  - 'replacefiles:a5dec25a-a8ce-4442-ad1d-84d803d24c8c' # Static
+  - 'saveassets:a5dec25a-a8ce-4442-ad1d-84d803d24c8c' # Static
+  - 'saveentries:5da5c0cc-6782-47b8-a32e-5e2d9c70161b' # Fixtures
+  - 'saveentries:e66b318a-f1ae-41a2-9847-f932df5b1e9e' # Hexes
+  - 'viewassets:a5dec25a-a8ce-4442-ad1d-84d803d24c8c' # Static
+  - 'viewentries:5da5c0cc-6782-47b8-a32e-5e2d9c70161b' # Fixtures
+  - 'viewentries:e66b318a-f1ae-41a2-9847-f932df5b1e9e' # Hexes
+  - 'viewpeerentries:5da5c0cc-6782-47b8-a32e-5e2d9c70161b' # Fixtures
+  - 'viewpeerentries:e66b318a-f1ae-41a2-9847-f932df5b1e9e' # Hexes

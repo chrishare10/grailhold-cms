@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: grails
+name: Grails
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 251cd312-2713-4f98-bc01-a5dddd1870b1
+type: structure

@@ -1,0 +1,112 @@
+fieldLayouts:
+  0f80216a-9903-4b66-9abb-c7c71ec5312b:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 756888ef-8a3d-449c-9f57-f01a44ec7220 # Approved Entry
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 632f3c32-7894-4833-ae90-0d82a5f9d69d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Admin
+        uid: b295f3de-e197-45a2-bafc-2604d4e6d291
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fadb880c-fa77-4a80-ad92-72a3ef9e85cb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: efc16731-2af7-4e75-b152-d8fe698536c8 # Character Picker
+            instructions: null
+            label: Attribution
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59beba0d-d0c7-4218-a80c-e230b5922240
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2b1af383-2909-45d1-b416-3419b0311098 # Image 01
+            instructions: null
+            label: Thumbnail
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9d0c1ba2-69af-4955-ab31-9e54919836fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ac4ed950-31b5-44f7-b593-097e217af77c # Text Area 01
+            instructions: null
+            label: Details
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5465f4bf-4a64-41f0-8c87-5fec8dcbd6eb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e0c571c3-dacc-4892-b8a4-d03dbb8cc231 # Entry Picker 01
+            instructions: null
+            label: AssociatedHex
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7f19706-b8fd-4c44-b850-4843c9086458
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b3916487-904f-44b6-8d1b-969655c7fbeb
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 845d17ac-d979-4b8b-aa17-89ecc82a0b2f # Fables
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

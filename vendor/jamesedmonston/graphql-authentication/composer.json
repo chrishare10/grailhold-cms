@@ -1,0 +1,67 @@
+{
+  "name": "jamesedmonston/graphql-authentication",
+  "description": "GraphQL authentication for your headless Craft CMS applications.",
+  "type": "craft-plugin",
+  "version": "2.5.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "graphql",
+    "authentication",
+    "graphql-authentication"
+  ],
+  "support": {
+    "docs": "https://github.com/jamesedmonston/graphql-authentication/blob/master/README.md",
+    "issues": "https://github.com/jamesedmonston/graphql-authentication/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "James Edmonston",
+      "homepage": "https://jamesedmonston.co.uk"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.0.2",
+    "abraham/twitteroauth": "^3.1",
+    "craftcms/cms": "^4.0.0-alpha.1",
+    "google/apiclient": "^2.10",
+    "lcobucci/jwt": "^4.1",
+    "league/oauth2-facebook": "^2.0",
+    "thenetworg/oauth2-azure": "^2.1"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main",
+    "craftcms/rector": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "jamesedmonston\\graphqlauthentication\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "GraphQL Authentication",
+    "handle": "graphql-authentication",
+    "developer": "James Edmonston",
+    "developerUrl": "https://github.com/jamesedmonston",
+    "documentationUrl": "https://github.com/jamesedmonston/graphql-authentication/blob/master/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/jamesedmonston/graphql-authentication/master/CHANGELOG.md",
+    "class": "jamesedmonston\\graphqlauthentication\\GraphqlAuthentication"
+  },
+  "scripts": {
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --ansi --fix",
+    "phpstan": "phpstan --memory-limit=1G"
+  },
+  "config": {
+    "allow-plugins": {
+      "yiisoft/yii2-composer": true,
+      "craftcms/plugin-installer": true
+    }
+  }
+}

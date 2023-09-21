@@ -1,0 +1,20 @@
+columnSuffix: xnaffrko
+contentColumnType: smallint(1)
+fieldGroup: 103380fc-b583-4f14-ba0b-1603e3553842 # Attributes
+handle: communication
+instructions: null
+name: Communication
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 0
+  max: 4
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

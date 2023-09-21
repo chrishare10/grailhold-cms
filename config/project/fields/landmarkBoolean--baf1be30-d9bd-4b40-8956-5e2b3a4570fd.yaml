@@ -1,0 +1,14 @@
+columnSuffix: null
+contentColumnType: boolean
+fieldGroup: 51adbf9d-694c-41e1-8b70-196225cb9ea3 # Common
+handle: landmarkBoolean
+instructions: null
+name: 'Landmark Boolean'
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

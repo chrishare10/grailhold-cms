@@ -1,0 +1,27 @@
+defaultPlacement: beginning
+enableVersioning: true
+handle: fabrications
+name: Fabrications
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: false
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: b4180f6e-5b30-4e4d-bed7-dfa704729bb3
+type: structure

@@ -1,0 +1,14 @@
+columnSuffix: pwagedix
+contentColumnType: boolean
+fieldGroup: 51adbf9d-694c-41e1-8b70-196225cb9ea3 # Common
+handle: lightswitch02
+instructions: null
+name: 'Lightswitch 02'
+searchable: false
+settings:
+  default: true
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

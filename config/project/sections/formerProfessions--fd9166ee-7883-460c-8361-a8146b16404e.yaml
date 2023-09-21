@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: formerProfessions
+name: 'Former Professions '
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 6d4bd946-a615-4b9e-8a0b-2c247a1ef227
+type: structure

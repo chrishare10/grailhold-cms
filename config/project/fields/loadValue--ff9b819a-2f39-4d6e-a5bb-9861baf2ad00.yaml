@@ -1,0 +1,46 @@
+columnSuffix: dpemeuin
+contentColumnType: string(8)
+fieldGroup: e2f498db-79cf-4841-ba2d-31517d20d39e # Equipment
+handle: loadValue
+instructions: null
+name: 'Load Value'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Light
+        -
+          - value
+          - light
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Standard
+        -
+          - value
+          - standard
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Heavy
+        -
+          - value
+          - heavy
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons

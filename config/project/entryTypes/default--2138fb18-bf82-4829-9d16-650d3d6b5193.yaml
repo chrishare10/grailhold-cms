@@ -1,0 +1,604 @@
+fieldLayouts:
+  32a18dd3-1fd6-419a-8978-86ad4d9c33ce:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: c3588f52-6099-4c16-a5a2-4f6ca7452c8a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fc3cbe05-91cc-4455-86db-8ae370588baf # Attributes Limit
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: eded365c-1337-4a88-85c5-033d87b3f5d5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 82de5fdf-2478-4665-abff-316698e9eeb6 # User Picker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39c448b9-2899-4016-b04d-9641e7165c41
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0ae074b6-cc67-4dc3-b956-b4df720d2ce5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 971d9610-17b3-46c9-a00c-31542f4a9ec0 # Class Picker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb43d20e-cedb-453e-8523-763195fdc8b9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 84679f20-2732-42b4-a50e-1111708be80e # Subclass Picker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2fdd5933-2674-4890-9905-a192119168e2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Class
+        uid: 4567b768-9a06-451d-ba14-34b2d0d77c4e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 3cf855e6-22b4-47d6-a1af-39809df4f636 # Stress
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: def8617b-ce0d-4350-858e-3b00cd45fbde
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 769fe76f-7b58-4e4f-9785-d3f76c22a73e # Mannerism Picker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 13ed48c8-33eb-444b-b483-1dcd64e0e4bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Stress
+        uid: f6aa9aad-061c-49e1-a5ec-b3145f758d9a
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fadbfb74-2ba7-46e8-bdd7-ed0a8d04a6ad # Text 01
+            instructions: null
+            label: 'Level One - One'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7dc9f9fd-a601-41eb-8920-94bb293c6660
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 04059342-bf76-45e9-853d-c13ad88dfee1 # Text 02
+            instructions: null
+            label: 'Level One - Two'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dfd4e6d1-e5fb-44dc-bee0-cf79eb54eee6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9cdb4aec-c2b8-4cd4-91d6-46caf420596a # Text 03
+            instructions: null
+            label: 'Level Two - One'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 941e9781-b91a-4afb-9112-cba68669fa8d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: acbe8372-679d-4da6-9cfd-02aa35394a02 # Text 04
+            instructions: null
+            label: 'Level Two - Two'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9b7a7914-2941-48e7-b0ba-98ac2071c52b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 891406c9-86fa-42b5-9b7f-8704a1967796 # Text 05
+            instructions: null
+            label: 'Level Three'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 508d2f54-a6c3-45a6-a70f-554a8b2f80ea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Harm
+        uid: bc5aa473-f846-46fb-b954-b0e394b1faa5
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 485d483c-5435-4217-8ee1-6fe26819ea7c # Grails Picker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1ac520ca-bd4f-4fd5-aebd-57ceab08b7e5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Grails
+        uid: 29dc8eae-71f3-41d3-97da-a4048c443928
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 743c097a-2cd8-4553-a10c-e78018f8ba44 # Athletics
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d41e5773-6a69-49fe-8c80-6dcf0bee8570
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af9e0f34-c433-40dc-b922-99f9d9a0a282 # Stealth
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 204953b0-9953-466b-b4d5-fee25bd0e069
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0b44bd82-3a41-4103-ac55-03eafad3d484 # Aiming
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1597858a-126b-420b-a2a4-254b0edeb623
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5b336b04-0ee7-4a60-9b1c-fec46eccc641 # Striking
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 455bf18f-d900-4330-a5f2-4b40b1602e67
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Prowess Attributes'
+        uid: 80cd6bb1-8d01-4d8c-a737-78ebbe9b9cf3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5bf4a522-ac48-4ea9-a4e1-8fd2cb06dbce # Lore
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5f242fb0-ac22-4d20-9946-3889192a448c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a0d1a088-be6c-47ca-97ce-c7f332fb5abc # Tinker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c3a0fff1-b015-4646-a542-c4193e3d62ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 834ec2e6-0005-4034-a045-0d8a0d24ec94 # Nature
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5bf65d41-d710-4329-8ae6-3f14d18df8e5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a2ed387b-af85-493c-92d5-4124282a0414 # Healing
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: feaf2741-f6cf-40db-b961-c266cab7884e
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Intellect Attributes'
+        uid: 44bc5cf7-c85f-42c1-a58e-d30951febcfe
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e4615e4d-f312-4be1-9cf4-aa526c3bb4ca # Insight
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c83cbf6-55f5-4db1-bc2e-91148a0f1e55
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d8ad8265-f77d-40db-8680-ec0787d4d971 # Perception
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73c72117-646a-4e09-96ff-5c471eac259a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6c9f3ebd-779f-47c3-baba-c579aef22c99 # Communication
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6520e342-0317-4afe-aade-607700effc8c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a2b163d6-f50b-4814-b880-6e28a9d73608 # Performance
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ec3df66-570e-48d2-b51f-7d1e0e1f55dc
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Cunning Attributes'
+        uid: 631b2b30-eb7a-4951-959c-940ef3d020bf
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ff9b819a-2f39-4d6e-a5bb-9861baf2ad00 # Load Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b9a717e4-b7a5-43b8-add1-a07dfd0776fd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0a5341cf-04e3-48b2-9a8a-e838b7a01d57 # Armor Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0a9b66a-410e-44b2-a4d6-ecff3820b90b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b18a3f06-1c9b-4da6-b9a7-cc3bf9ff4260 # Melee Weapon Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07bbe158-0060-49f2-9d5d-848f65801e81
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: dddf7ea3-313c-40c7-95c1-4cb48707093c # Ranged Weapon Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b1255e63-d386-47b4-b521-d048106d3630
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 48fb9416-462a-47e6-b65f-682506c2c78d # Unusual Weapon Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 27ef808a-1273-43de-8e6a-179d7e310c73
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3bdb98c9-0059-4e7c-a7f0-677e1c28ace7 # Shield Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19378b73-dac7-47e8-8c74-c3fb9d93d520
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f2598ba3-cedf-425e-a3c5-e84b8fed1b93 # Tinkering Tool Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: db43afb2-d924-4295-9bc8-a57bb94ffce1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8395c8cf-fa31-4320-87ef-14669d869caa # Demolition Tool Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa0e5019-8c81-4833-ada5-fb025470dad2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 94e95c58-cc67-4d46-a351-7d504bd8fbe7 # Light Source Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b137d315-617c-425f-bcb6-5f781028de0b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 55d8b45a-aedd-4b55-9fc2-b079ffdada12 # First Aid Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c85f35d-3a6a-4be7-8f3b-afff41556cdb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3c0fa0b3-3811-47a8-a97c-2415f98d1a74 # Performance Tool Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac8f821e-27c1-42c5-9d0c-29ba40edd04f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f56f2799-28d2-405c-86ff-0bd4095eb19e # Navigational Tool Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ebb55c7b-6447-4dcb-b569-3fb6817b47ae
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 07895bd7-9624-4691-994f-1bf3418de28d # Climbing Tool Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dabc2339-981e-4541-a1ad-470c4ad27b7b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6204d4c6-dfdb-418b-9471-a2f590099867 # Documents Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ce5c991b-c238-4c31-8029-388277bbf643
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3a2e00b2-54a3-4c9c-9b10-4ac8cf8e3628 # Disguise Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: acfd70e5-cbad-4368-9c7d-34b01e3dc310
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2b7e933d-b192-4395-bd16-6dd3b04c51be # Variable Equipment Slot One Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 339fdcec-859d-4057-bbf0-6ed1b3f8714f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e0725554-a269-4a2c-be83-47811cfdcb56 # Variable Equipment Slot One Value
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff5ce4d3-86c2-4314-8569-aeee4ce54387
+            userCondition: null
+            warning: null
+            width: 100
+        name: Equipment
+        uid: 999efd15-e0c6-42b6-987c-8d5129be0da4
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: dbf33239-41b2-4ffa-b029-1e275fc9fc02 # Former Professions Picker
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19782db3-5dc4-4681-a017-7a8afdfea9d2
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Former Profession'
+        uid: d8468415-cba0-4f1c-826f-fc9b14ec2888
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 3aea7df2-ac43-497d-a1c8-fcfd3c70f02b # Characters
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,20 @@
+columnSuffix: null
+contentColumnType: integer(10)
+fieldGroup: 51adbf9d-694c-41e1-8b70-196225cb9ea3 # Common
+handle: attributesLimit
+instructions: null
+name: 'Attributes Limit'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: 7
+  max: null
+  min: 7
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

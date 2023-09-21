@@ -1,0 +1,27 @@
+defaultPlacement: beginning
+enableVersioning: true
+handle: characters
+name: Characters
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  48830c8f-d2e4-4358-9a07-e909eb7fa688: # Grailhold
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: f5b02e3e-02a0-48ca-bb29-7dd7f8e9de64
+type: structure

@@ -1,0 +1,54 @@
+fieldLayouts:
+  763cd4eb-19bd-4261-a79e-990833603f9f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: fadbfb74-2ba7-46e8-bdd7-ed0a8d04a6ad # Text 01
+            instructions: null
+            label: 'Embed Code'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80e7934f-283f-430c-a138-6f68d389f776
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 39b7ae58-d1e0-4c71-8bed-e758d1752b3f # File 01
+            instructions: null
+            label: 'Video File'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bdd7f35e-3085-4844-a7c8-7ebc139b040c
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Video Embed'
+        uid: c6fb6277-2df9-4fbb-b414-02e477c17475
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ac4ed950-31b5-44f7-b593-097e217af77c # Text Area 01
+            instructions: null
+            label: 'Text Content'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83862938-32d4-4625-a313-d1b95084230c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Details
+        uid: cc71e75e-d2f7-4c85-b609-fc29c09bbb1b
+        userCondition: null
+handle: about
+name: About
+sortOrder: 1
